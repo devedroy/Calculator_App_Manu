@@ -7,6 +7,10 @@ android {
     namespace = "com.example.calculator_app"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.example.calculator_app"
         minSdk = 24
